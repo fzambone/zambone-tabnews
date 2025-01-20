@@ -29,7 +29,7 @@ async function getNewClient() {
 }
 
 function getSSLValues() {
-  process.env.NODE_ENV === "production" ? true : false;
+  process.env.NODE_ENV === "development" ? true : false;
 }
 
 export default {
